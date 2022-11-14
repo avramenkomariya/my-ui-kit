@@ -1,8 +1,8 @@
 {
-  "name": "@TkachevDmitrii/ui-kit",
+  "name": "@avramenkomariya/my-ui-kit",
   "version": "0.1.0",
-  "description": "my ui-kit",
-  "author": "Tkachev Dmitrii",
+  "description": "project my-ui-kit",
+  "author": "Avramenko Mariya",
   "main": "src/index.ts",
   "scripts": {
     "start": "cross-env NODE_ENV=development S_MAPS=fast start-storybook -s ./src/assets --quiet -p 3000",

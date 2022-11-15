@@ -64,6 +64,10 @@ declare type IconType =
   | 'sendMessage'
   | 'ballot'
   | 'personPin'
+  | 'plus1'
+  | 'multiply'
+  | 'minus'
+  | 'divide'
 
 declare interface IconProps {
   type: IconType

@@ -74,6 +74,10 @@ const typeOptions: IconType[] = [
   'sendMessage',
   'ballot',
   'personPin',
+  'plus1',
+  'multiply',
+  'minus',
+  'divide',
 ]
 
 const Wrapper = styled.div`

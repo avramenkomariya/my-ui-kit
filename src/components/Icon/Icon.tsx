@@ -66,6 +66,10 @@ import {
   sendMessage,
   ballot,
   personPin,
+  plus1,
+  multiply,
+  minus,
+  divide,
 } from './shapes'
 
 const Wrapper = styled.div<WrapperProps>`
@@ -151,6 +155,10 @@ export const Icon: React.FC<IconProps> = ({
     ['sendMessage', sendMessage],
     ['ballot', ballot],
     ['personPin', personPin],
+    ['plus1', plus1],
+    ['multiply', multiply],
+    ['minus', minus],
+    ['divide', divide],
   ])
 
   const [hovered, setHovered] = useState<boolean>(false)
